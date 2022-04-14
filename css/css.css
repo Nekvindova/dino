@@ -1,0 +1,176 @@
+
+.dencino-pozadi {
+	background-image: url('../obrazky/obr_62.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 800px;
+}
+
+.nav-link:hover {
+	border-bottom: 3px solid white;
+}
+.container-fluid {
+	padding:  0 0;
+}
+.nav-link {
+font-size: 20px;
+text-transform: uppercase;
+font-family: 'Cantarell', sans-serif;
+}
+.navbar-brand {
+font-family: 'Cantarell', sans-serif;	
+}
+.navbar-light .navbar-brand {
+color: #FFF;
+}
+.navbar-light .navbar-brand:hover {
+color: #ffd41a;
+}
+.navbar-light .navbar-nav .nav-link{
+color: #FFF;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+color: #ffd41a;
+}
+ header h1 {
+text-shadow: 2px 2px #5E6866;
+color: #ffd41a;
+text-align: center;
+font-size: 90px;
+margin-top: 200px;
+}
+article h2 {
+color: #939393;
+text-align: center;
+margin-top: 80px;
+margin-bottom:40px;
+font-family: 'Cantarell', sans-serif;
+}
+article p {
+clear: right;
+font-size: 17px;
+}
+article {
+margin-bottom: 80px;
+}
+.btn-block {
+width: 40%;
+margin: auto;
+margin-top: 100px;
+}
+.btn-secondary {
+color: #000;
+background-color: #FFF;
+border-color: #FFF; 
+}
+.btn-secondary:hover {
+color: #ffd41a;
+background-color: #FFF;
+border-color: #FFF; 
+}
+a:hover {
+text-decoration: none;
+}
+.obrazek {
+background-image: url('../obrazky/obr_66.png');
+background-repeat: no-repeat;
+background-size: 100%;
+height: 350px;
+}
+.mapy img {
+margin-top: 80px;
+}
+.obrazky img {
+margin-top: 250px;
+float: right;
+}
+	.col-xl-1 {width: 8.33%;}
+	.col-xl-2 {width: 16.66%;}
+	.col-xl-3 {width: 25%;}
+	.col-xl-4 {width: 33.33%;}
+	.col-xl-5 {width: 41.66%;}
+	.col-xl-6 {width: 50%;}
+	.col-xl-7 {width: 58.33%;}
+	.col-xl-8 {width: 66.66%;}
+	.col-xl-9 {width: 75%;}
+	.col-xl-10 {width: 83.33%;}
+	.col-xl-11 {width: 91.66%;}
+	.col-xl-12 {width: 100%}
+.row::after {
+	clear:  both;
+	content: "";
+	display: block;
+}
+[class*="col-"] {
+	float: left;
+	padding: 15px;	
+}
+footer {
+text-align: center;
+margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 992px){
+header h1 {
+margin-top: 100px;
+}
+.dencino-pozadi {
+height: 500px;
+}
+}
+
+@media only screen and (max-width: 768px){
+header h1 {
+margin-top: 90px;
+font-size: 60px;
+}
+.mapy {
+display: none;
+}
+.obrazky {
+display: none;
+}
+article h2{
+margin-top: 20px ;
+margin-bottom: 0px;
+}
+.col-md-1 {width: 8.33%;}
+.col-md-2 {width: 16.66%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md-12 {width: 100%;}
+}
+
+@media only screen and (max-width: 320px){
+header h1 {
+margin-top: 20px;
+font-size: 22px;
+}
+.btn-block {
+margin-top: 20px;
+width: 60%;
+font-size: 10px;
+}
+.nav-link {
+font-size: 12px;
+}
+.dencino-pozadi {
+height: 200px;
+}
+article h2 {
+font-size: 16px;
+}
+article {
+margin-bottom: 10px;
+}
+article p {
+font-size: 12px;
+}
+}
